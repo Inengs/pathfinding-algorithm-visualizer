@@ -19,6 +19,10 @@ function initializeGrid() {
     // A proper 2D array of objects
 }
 
+
+function renderGrid() {
+    const container = document.getElementById('grid-container')
+}
 function updateGrid() {
 
 }
