@@ -1,0 +1,48 @@
+/* BASE OF BODY STYLE */
+body {
+    margin: 0;
+    /* No margin */
+    font-family: 'Inter', sans-serif;
+    /* font */
+    background: #f8f9fa;
+    /* change background colour */
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.grid-container {
+    max-width: 600px;
+    width: 80vmin;
+    height: 80vmin;
+    text-align: center;
+    margin: auto;
+}
+
+.cell {
+    border: 1px solid #ccc;
+    background: #fff;
+    transition: background-color 1s;
+}
+
+.cell.wall {
+    background: #333;
+}
+
+.cell.start {
+    background: #0f0;
+}
+
+.cell.end {
+    background: #f00;
+}
+
+.cell.visited {
+    background: #aaf;
+}
+
+.cell.path {
+    background: #ff0;
+}
